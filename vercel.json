@@ -1,0 +1,13 @@
+{
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/node",
+      "config": {
+        "maxLambdaSize": "50mb"
+      }
+    }
+  ],
+  "outputDirectory": "dist",
+  "public": "public"
+}
