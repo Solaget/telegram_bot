@@ -9,5 +9,5 @@
     }
   ],
   "outputDirectory": "dist",
-  "public": "public"
+  "public": true
 }
